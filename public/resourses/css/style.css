@@ -1,0 +1,144 @@
+
+li{
+    list-style: none;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+a {
+    /*padding: .75em 1em;*/
+    text-decoration: none;
+}
+a:hover {
+    background:#e1e1e1 ;
+}
+a:visited {
+    font-size: 18px;
+    font-weight: 400;
+    color: #25282A;
+    padding: 10px 0 15px 15px;
+    border: none;
+}
+.header_content{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+.delimiter{
+    border: 1px solid #4c5454;
+}
+
+.clear{
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navigation{
+    width: 150px;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+.search{
+    border: 1px solid #000;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.search input[type=text]{
+    width: 90%;
+    padding: 3px;
+}
+.search input[type=submit]{
+    margin: 10px;
+}
+
+.cart{
+    padding: 3px;
+}
+
+.value{
+    font-weight: bold;
+}
+
+.main-page{
+    padding: 20px;
+    float: left;
+}
+.new-books li, .popular-books li{
+    float: left;
+    margin:5px;
+    border: 1px solid #000;
+    min-width: 100px;
+    height: 150px;
+}
+
+.popular-books{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.book{
+    width: 250px;
+    height: 250px;
+    margin:10px;
+    padding: 10px;
+    border: 1px solid #c1c1c1;
+}
+.cart-container{
+    float: left;
+    padding: 15px;
+    margin: 15px;
+    width: 500px;
+}
+
+.cart-container table td{
+    padding: 7px;
+}
+
+
+.checkout{
+    margin-top: 20px;
+    width: 500px;
+    float: right;
+}
+
+.main-page .book{
+    width: 180px;
+    height: 280px;
+}
+
+.proceed-checkout{
+    width: 500px;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+}
+.proceed-checkout input{
+    margin-left: 10px;
+    padding: 3px;
+}
